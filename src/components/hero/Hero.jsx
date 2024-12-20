@@ -64,7 +64,7 @@ const Hero = () => {
             </motion.button>
             <motion.button variants={textVariants}>
               <a
-                href="https://www.linkedin.com/in/garvit-jhalani-731145264/"
+                href="https://www.linkedin.com/in/garvit-jhalani/"
                 target="_blank"
                 rel="noopener noreferrer"
               >

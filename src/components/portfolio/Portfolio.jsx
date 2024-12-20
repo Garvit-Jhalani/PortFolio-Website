@@ -1,21 +1,22 @@
 import { useRef } from "react";
 import "./portfolio.scss";
 import { motion, useScroll, useSpring, useTransform } from "framer-motion";
+import Markify from "../../../public/Markify.webp";
 
 const items = [
   {
     id: 1,
-    title: "FarmHub",
-    img: "https://media.istockphoto.com/id/1029301814/photo/farmer-ploughing-field.jpg?s=612x612&w=0&k=20&c=DUfDbLJ_gpkdPJZu3Nu3_Y_wdB64MP1lAoNtus1ewXQ=",
-    desc: "FarmHub is a platform that empowers farmers by allowing them to sell their crops directly to the market, eliminating the need for intermediaries. The goal is to promote agriculture by ensuring farmers get fair prices for their produce.",
-    redirect: "#",
+    title: "Markify",
+    img: "/Markify.webp",
+    desc: "Markify is a user-friendly web application designed to streamline bookmark management by fetching and organizing Chrome bookmarks in a centralized interface. The project was created to address the common issue of cluttered and unorganized bookmarks, providing a solution that prioritizes simplicity, speed, and efficiency. ",
+    redirect: "https://github.com/Garvit-Jhalani/Markify",
   },
   {
     id: 2,
-    title: "ParkEase",
-    img: "https://png.pngtree.com/background/20230516/original/pngtree-large-parking-lot-with-many-cars-parked-picture-image_2601294.jpg",
-    desc: "ParkEase is a platform that connects households with available parking spaces to users looking for parking spots in specific locations. This innovative solution helps solve parking issues while utilizing underused private parking areas.",
-    redirect: "#",
+    title: "Internshala Automation",
+    img: "https://img.freepik.com/premium-photo/industrial-integration-automation-modernization_488220-597.jpg?semt=ais_hybrid",
+    desc: "Internshala Automation is a powerful tool designed to automate and streamline the process of applying for internships on the Internshala platform. The project leverages modern web automation techniques to help users save time and effort by automating repetitive tasks, such as filling out application forms and sending personalized messages.",
+    redirect: "https://github.com/Garvit-Jhalani/Internshala-Automation",
   },
   {
     id: 3,
